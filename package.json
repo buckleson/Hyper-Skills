@@ -29,7 +29,7 @@
     ".claude-plugin/"
   ],
   "bin": {
-    "hyper-skills": "./bin/hyper-skills.js"
+    "hyper-skills": "bin/hyper-skills.js"
   },
   "scripts": {
     "postinstall": "node bin/postinstall.js",
