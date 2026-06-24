@@ -18,7 +18,7 @@ It ships three Hyper-branded workflows:
 Install into the current project with one command:
 
 ```sh
-npm install hyper-agent-skills
+npm install hyper-agent-skills@latest
 ```
 
 The package postinstall copies the Hyper skills into:
@@ -38,13 +38,13 @@ Restart OpenCode after installing so the `/` menu reloads the command list.
 You can also retry the copy manually:
 
 ```sh
-npx hyper-agent-skills install
+npx hyper-agent-skills@latest install
 ```
 
 List included skills:
 
 ```sh
-npx hyper-agent-skills list
+npx hyper-agent-skills@latest list
 ```
 
 ## Skills

@@ -45,5 +45,5 @@ try {
   console.log(`[hyper-agent-skills] installed ${opencodeCommands.length} OpenCode commands into ${opencodeCommandRoot}`);
 } catch (error) {
   console.warn(`[hyper-agent-skills] package installed, but skill copy failed: ${error.message}`);
-  console.warn("[hyper-agent-skills] run `npx hyper-agent-skills install` from your project to retry.");
+  console.warn("[hyper-agent-skills] run `npx hyper-agent-skills@latest install` from your project to retry.");
 }

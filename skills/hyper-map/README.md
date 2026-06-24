@@ -17,7 +17,7 @@ Hyper-branded outputs to `hmap-out/` instead of `graphify-out/`.
 ## Install
 
 ```sh
-npm install hyper-agent-skills
+npm install hyper-agent-skills@latest
 ```
 
 For OpenCode, restart the TUI after installing and use `/hyper-mapper` from the

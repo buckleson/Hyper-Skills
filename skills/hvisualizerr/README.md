@@ -31,7 +31,7 @@ Only create the optional files when the plan actually needs them.
 ## Install
 
 ```sh
-npm install hyper-agent-skills
+npm install hyper-agent-skills@latest
 ```
 
 For OpenCode, restart the TUI after installing and use `/hvisualizerr` from the

@@ -30,7 +30,7 @@ Skip it for ordinary code review when there is no other agent run to audit.
 ## Install
 
 ```sh
-npm install hyper-agent-skills
+npm install hyper-agent-skills@latest
 ```
 
 For OpenCode, restart the TUI after installing and use `/owl` from the slash
