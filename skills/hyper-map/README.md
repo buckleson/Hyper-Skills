@@ -17,7 +17,7 @@ Hyper-branded outputs to `hmap-out/` instead of `graphify-out/`.
 ## Install
 
 ```sh
-npm install hyper-skills
+npm install hyper-agent-skills
 ```
 
 Or install only this skill with an Agent Skills compatible installer from this

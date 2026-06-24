@@ -36,6 +36,6 @@ if (command === "list") {
 } else if (command === "install") {
   install(process.cwd());
 } else {
-  console.error("Usage: hyper-skills [install|list]");
+  console.error("Usage: hyper-agent-skills [install|list]");
   process.exit(1);
 }

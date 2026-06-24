@@ -18,7 +18,7 @@ It ships three Hyper-branded workflows:
 Install into the current project with one command:
 
 ```sh
-npm install hyper-skills
+npm install hyper-agent-skills
 ```
 
 The package postinstall copies the Hyper skills into:
@@ -30,13 +30,13 @@ The package postinstall copies the Hyper skills into:
 You can also retry the copy manually:
 
 ```sh
-npx hyper-skills install
+npx hyper-agent-skills install
 ```
 
 List included skills:
 
 ```sh
-npx hyper-skills list
+npx hyper-agent-skills list
 ```
 
 ## Skills

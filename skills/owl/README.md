@@ -30,7 +30,7 @@ Skip it for ordinary code review when there is no other agent run to audit.
 ## Install
 
 ```sh
-npm install hyper-skills
+npm install hyper-agent-skills
 ```
 
 Or install only this skill with an Agent Skills compatible installer from this

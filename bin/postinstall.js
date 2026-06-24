@@ -26,7 +26,7 @@ function copyDir(source, target) {
 }
 
 if (skip) {
-  console.log("[hyper-skills] skipped skill install because HYPER_SKILLS_SKIP_INSTALL=1");
+  console.log("[hyper-agent-skills] skipped skill install because HYPER_SKILLS_SKIP_INSTALL=1");
   process.exit(0);
 }
 
@@ -34,8 +34,8 @@ try {
   for (const name of skillNames) {
     copyDir(path.join(sourceRoot, name), path.join(targetRoot, name));
   }
-  console.log(`[hyper-skills] installed ${skillNames.length} skills into ${targetRoot}`);
+  console.log(`[hyper-agent-skills] installed ${skillNames.length} skills into ${targetRoot}`);
 } catch (error) {
-  console.warn(`[hyper-skills] package installed, but skill copy failed: ${error.message}`);
-  console.warn("[hyper-skills] run `npx hyper-skills install` from your project to retry.");
+  console.warn(`[hyper-agent-skills] package installed, but skill copy failed: ${error.message}`);
+  console.warn("[hyper-agent-skills] run `npx hyper-agent-skills install` from your project to retry.");
 }

@@ -29,7 +29,7 @@ const extra = actual.filter((name) => !expected.includes(name));
 if (extra.length) failures.push(`unexpected skill folders: ${extra.join(", ")}`);
 
 const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
-if (pkg.name !== "hyper-skills") failures.push("package name must be hyper-skills");
+if (pkg.name !== "hyper-agent-skills") failures.push("package name must be hyper-agent-skills");
 if (pkg.private) failures.push("package must not be private");
 
 if (failures.length) {

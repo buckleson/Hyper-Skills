@@ -1,5 +1,5 @@
 {
-  "name": "hyper-skills",
+  "name": "hyper-agent-skills",
   "version": "0.1.0",
   "type": "module",
   "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/buckleson/Hyper-Skills.git"
   },
   "keywords": [
-    "hyper-skills",
+    "hyper-agent-skills",
     "agent-skills",
     "codex",
     "claude-code",
@@ -29,7 +29,7 @@
     ".claude-plugin/"
   ],
   "bin": {
-    "hyper-skills": "bin/hyper-skills.js"
+    "hyper-agent-skills": "bin/hyper-skills.js"
   },
   "scripts": {
     "postinstall": "node bin/postinstall.js",

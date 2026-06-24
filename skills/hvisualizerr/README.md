@@ -31,7 +31,7 @@ Only create the optional files when the plan actually needs them.
 ## Install
 
 ```sh
-npm install hyper-skills
+npm install hyper-agent-skills
 ```
 
 Or install only this skill with an Agent Skills compatible installer from this
