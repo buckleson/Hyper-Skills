@@ -2,7 +2,7 @@
 
 Hyper Skills is a small set of installable skills for coding agents.
 
-It ships three Hyper-branded workflows:
+It ships four Hyper-branded workflows:
 
 - [`/owl`](skills/owl/README.md): watch, audit, compare, and optionally repair
   another coding agent's work across Codex, Claude Code, Kilo Code, OpenCode,
@@ -12,6 +12,8 @@ It ships three Hyper-branded workflows:
   questions, UI canvases, and optional prototypes.
 - [`/hyper-mapper`](skills/hyper-map/README.md): build and query a Hyper Map
   codebase knowledge graph using `graphifyy`, with outputs in `hmap-out/`.
+- [`/hsave`](skills/hsave/README.md): switch agents into concise-response mode
+  to reduce output tokens while preserving technical accuracy.
 
 ## Install
 
@@ -85,6 +87,12 @@ Fallback:
 pipx install graphifyy
 ```
 
+### `/hsave`
+
+Use `/hsave` to reduce output tokens for the current session. It keeps code,
+commands, paths, URLs, error strings, API names, and symbols exact while
+dropping filler and long narration.
+
 ## Agent Skills Installers
 
 Agent Skills compatible installers can also install individual folders from the
@@ -94,6 +102,7 @@ repo:
 npx @agent-native/skills@latest add --copy . --skill owl
 npx @agent-native/skills@latest add --copy . --skill hvisualizerr
 npx @agent-native/skills@latest add --copy . --skill hyper-map
+npx @agent-native/skills@latest add --copy . --skill hsave
 ```
 
 ## License

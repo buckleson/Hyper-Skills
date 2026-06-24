@@ -1,8 +1,8 @@
 {
   "name": "hyper-agent-skills",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
-  "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
+  "description": "Hyper Skills for cross-agent session watching, visual planning, codebase mapping, and token-saving replies.",
   "license": "MIT",
   "homepage": "https://github.com/buckleson/Hyper-Skills",
   "repository": {
@@ -22,6 +22,7 @@
     "skills/owl/",
     "skills/hvisualizerr/",
     "skills/hyper-map/",
+    "skills/hsave/",
     "commands/",
     "bin/",
     "README.md",

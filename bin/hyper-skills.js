@@ -7,8 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const packageRoot = path.resolve(__dirname, "..");
 const sourceRoot = path.join(packageRoot, "skills");
 const commandsRoot = path.join(packageRoot, "commands", "opencode");
-const skillNames = ["owl", "hvisualizerr", "hyper-map"];
-const opencodeCommands = ["owl.md", "hvisualizerr.md", "hyper-mapper.md"];
+const skillNames = ["owl", "hvisualizerr", "hyper-map", "hsave"];
+const opencodeCommands = ["owl.md", "hvisualizerr.md", "hyper-mapper.md", "hsave.md"];
 
 function copyDir(source, target) {
   fs.mkdirSync(target, { recursive: true });

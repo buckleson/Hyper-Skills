@@ -12,8 +12,8 @@ const targetRoot = path.join(installRoot, ".agents", "skills");
 const opencodeCommandRoot = path.join(installRoot, ".opencode", "commands");
 const skip = process.env.HYPER_SKILLS_SKIP_INSTALL === "1";
 
-const skillNames = ["owl", "hvisualizerr", "hyper-map"];
-const opencodeCommands = ["owl.md", "hvisualizerr.md", "hyper-mapper.md"];
+const skillNames = ["owl", "hvisualizerr", "hyper-map", "hsave"];
+const opencodeCommands = ["owl.md", "hvisualizerr.md", "hyper-mapper.md", "hsave.md"];
 
 function copyDir(source, target) {
   fs.mkdirSync(target, { recursive: true });
