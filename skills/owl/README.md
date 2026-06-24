@@ -33,6 +33,9 @@ Skip it for ordinary code review when there is no other agent run to audit.
 npm install hyper-agent-skills
 ```
 
+For OpenCode, restart the TUI after installing and use `/owl` from the slash
+menu.
+
 Or install only this skill with an Agent Skills compatible installer from this
 repo:
 

@@ -27,6 +27,14 @@ The package postinstall copies the Hyper skills into:
 .agents/skills/
 ```
 
+For OpenCode it also creates slash-command wrappers in:
+
+```text
+.opencode/commands/
+```
+
+Restart OpenCode after installing so the `/` menu reloads the command list.
+
 You can also retry the copy manually:
 
 ```sh

@@ -4,6 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const expected = ["owl", "hvisualizerr", "hyper-map"];
 const skillsRoot = path.join(root, "skills");
+const commandsRoot = path.join(root, "commands", "opencode");
 
 const failures = [];
 
@@ -27,6 +28,11 @@ const actual = fs.readdirSync(skillsRoot, { withFileTypes: true })
   .sort();
 const extra = actual.filter((name) => !expected.includes(name));
 if (extra.length) failures.push(`unexpected skill folders: ${extra.join(", ")}`);
+
+for (const command of ["owl.md", "hvisualizerr.md", "hyper-mapper.md"]) {
+  const commandPath = path.join(commandsRoot, command);
+  if (!fs.existsSync(commandPath)) failures.push(`missing ${path.relative(root, commandPath)}`);
+}
 
 const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
 if (pkg.name !== "hyper-agent-skills") failures.push("package name must be hyper-agent-skills");

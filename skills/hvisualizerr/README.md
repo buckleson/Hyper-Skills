@@ -34,6 +34,9 @@ Only create the optional files when the plan actually needs them.
 npm install hyper-agent-skills
 ```
 
+For OpenCode, restart the TUI after installing and use `/hvisualizerr` from the
+slash menu.
+
 Or install only this skill with an Agent Skills compatible installer from this
 repo:
 

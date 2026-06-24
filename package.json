@@ -1,6 +1,6 @@
 {
   "name": "hyper-agent-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
   "license": "MIT",
@@ -22,6 +22,7 @@
     "skills/owl/",
     "skills/hvisualizerr/",
     "skills/hyper-map/",
+    "commands/",
     "bin/",
     "README.md",
     "LICENSE",
