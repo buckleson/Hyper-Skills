@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const expected = ["owl", "hvisualizerr", "hyper-map", "hsave"];
+const expected = ["owl", "hyper-agnos", "hvisualizerr", "hyper-map", "hsave"];
 const skillsRoot = path.join(root, "skills");
 const commandsRoot = path.join(root, "commands", "opencode");
 
@@ -29,7 +29,7 @@ const actual = fs.readdirSync(skillsRoot, { withFileTypes: true })
 const extra = actual.filter((name) => !expected.includes(name));
 if (extra.length) failures.push(`unexpected skill folders: ${extra.join(", ")}`);
 
-for (const command of ["owl.md", "hvisualizerr.md", "hyper-mapper.md", "hsave.md"]) {
+for (const command of ["owl.md", "hyper-agnos.md", "hvisualizerr.md", "hyper-mapper.md", "hsave.md"]) {
   const commandPath = path.join(commandsRoot, command);
   if (!fs.existsSync(commandPath)) failures.push(`missing ${path.relative(root, commandPath)}`);
 }

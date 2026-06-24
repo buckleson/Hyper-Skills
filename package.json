@@ -1,8 +1,8 @@
 {
   "name": "hyper-agent-skills",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
-  "description": "Hyper Skills for cross-agent session watching, visual planning, codebase mapping, and token-saving replies.",
+  "description": "Hyper Skills for cross-agent watching, cost-aware model routing, visual planning, codebase mapping, and token-saving replies.",
   "license": "MIT",
   "homepage": "https://github.com/buckleson/Hyper-Skills",
   "repository": {
@@ -16,10 +16,13 @@
     "claude-code",
     "opencode",
     "kilo-code",
-    "graphify"
+    "graphify",
+    "model-routing",
+    "cost-aware"
   ],
   "files": [
     "skills/owl/",
+    "skills/hyper-agnos/",
     "skills/hvisualizerr/",
     "skills/hyper-map/",
     "skills/hsave/",

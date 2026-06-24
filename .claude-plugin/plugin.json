@@ -1,7 +1,7 @@
 {
   "name": "hyper-skills",
   "displayName": "Hyper Skills",
-  "description": "Hyper Skills for cross-agent session watching, visual planning, codebase mapping, and token-saving replies.",
+  "description": "Hyper Skills for cross-agent watching, cost-aware model routing, visual planning, codebase mapping, and token-saving replies.",
   "author": {
     "name": "Hyper Skills",
     "url": "https://github.com/buckleson/Hyper-Skills"

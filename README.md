@@ -2,11 +2,14 @@
 
 Hyper Skills is a small set of installable skills for coding agents.
 
-It ships four Hyper-branded workflows:
+It ships five Hyper-branded workflows:
 
 - [`/owl`](skills/owl/README.md): watch, audit, compare, and optionally repair
   another coding agent's work across Codex, Claude Code, Kilo Code, OpenCode,
   Pi and other IDE agent hosts, PRs, branches, transcripts, and logs.
+- [`/hyper-agnos`](skills/hyper-agnos/README.md): discover available models,
+  balances, quotas, and cost signals when possible, then route work to the best
+  affordable mix of premium and cheaper models.
 - [`/hvisualizerr`](skills/hvisualizerr/README.md): turn implementation plans
   into visual review artifacts with diagrams, file maps, annotated code, open
   questions, UI canvases, and optional prototypes.
@@ -49,6 +52,16 @@ List included skills:
 npx hyper-agent-skills@latest list
 ```
 
+Expected output:
+
+```text
+owl
+hyper-agnos
+hvisualizerr
+hyper-map
+hsave
+```
+
 ## Skills
 
 ### `/owl`
@@ -56,6 +69,13 @@ npx hyper-agent-skills@latest list
 Use `/owl` when another agent has done or is doing work and you need a careful
 watcher: resolve the run, reconstruct the request, check evidence, report gaps,
 track live updates, and make narrow fixes only when authorized.
+
+### `/hyper-agnos`
+
+Use `/hyper-agnos` when you want the agent to find available models and choose
+the best cost-quality balance. It keeps high-judgment work with the strongest
+appropriate model and uses cheaper capable models for bounded scans, edits,
+tests, logs, and summaries.
 
 ### `/hvisualizerr`
 
@@ -100,6 +120,7 @@ repo:
 
 ```sh
 npx @agent-native/skills@latest add --copy . --skill owl
+npx @agent-native/skills@latest add --copy . --skill hyper-agnos
 npx @agent-native/skills@latest add --copy . --skill hvisualizerr
 npx @agent-native/skills@latest add --copy . --skill hyper-map
 npx @agent-native/skills@latest add --copy . --skill hsave

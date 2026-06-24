@@ -1,7 +1,7 @@
 {
   "name": "hyper-skills",
   "version": "0.0.0",
-  "description": "Hyper Skills for cross-agent session watching, visual planning, codebase mapping, and token-saving replies.",
+  "description": "Hyper Skills for cross-agent watching, cost-aware model routing, visual planning, codebase mapping, and token-saving replies.",
   "author": {
     "name": "Hyper Skills",
     "url": "https://github.com/buckleson/Hyper-Skills"
@@ -13,7 +13,7 @@
   "interface": {
     "displayName": "Hyper Skills",
     "shortDescription": "Hyper Skills for coding-agent workflows.",
-    "longDescription": "A Hyper skill collection for cross-agent session watching, visual planning, codebase knowledge mapping with hmap-out outputs, and concise-response token saving.",
+    "longDescription": "A Hyper skill collection for cross-agent session watching, cost-aware model routing, visual planning, codebase knowledge mapping with hmap-out outputs, and concise-response token saving.",
     "developerName": "Hyper Skills",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
@@ -21,6 +21,7 @@
     "defaultPrompt": [
       "Use Hyper Skills when a matching skill applies",
       "Use /owl to watch and audit other agent sessions",
+      "Use /hyper-agnos for cost-aware model routing",
       "Use /hvisualizerr for structured visual planning",
       "Use /hyper-mapper for graph-backed codebase mapping",
       "Use /hsave for concise token-saving replies"
