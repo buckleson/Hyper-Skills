@@ -6,7 +6,7 @@ It ships four Hyper-branded workflows:
 
 - [`/owl`](skills/owl/README.md): watch, audit, compare, and optionally repair
   another coding agent's work across Codex, Claude Code, Kilo Code, OpenCode,
-  PRs, branches, transcripts, and logs.
+  Pi and other IDE agent hosts, PRs, branches, transcripts, and logs.
 - [`/hvisualizerr`](skills/hvisualizerr/README.md): turn implementation plans
   into visual review artifacts with diagrams, file maps, annotated code, open
   questions, UI canvases, and optional prototypes.
@@ -55,7 +55,7 @@ npx hyper-agent-skills@latest list
 
 Use `/owl` when another agent has done or is doing work and you need a careful
 watcher: resolve the run, reconstruct the request, check evidence, report gaps,
-and make narrow fixes only when authorized.
+track live updates, and make narrow fixes only when authorized.
 
 ### `/hvisualizerr`
 
