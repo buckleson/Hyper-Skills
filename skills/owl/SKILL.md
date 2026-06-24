@@ -34,6 +34,27 @@ If authority is unclear, default to audit-only and state what you would fix.
    reaches a terminal state or is clearly waiting on a human or external system.
 4. If the artifact cannot be resolved, ask for the missing identifier or path.
 
+### Codex Thread And Session IDs
+
+When the user supplies a Codex thread or session id, resolve it with the host
+thread APIs before searching local files, git history, or the workspace.
+
+- In Codex Desktop, use the available thread tools such as `read_thread` or
+  `list_threads`. If the current environment exposes `codex_app.read_thread`,
+  call it with the supplied thread id.
+- If the user asks about the current Codex session and a thread/session id is
+  available from the host environment, use that id directly.
+- Start with recent turns and omit large command outputs unless the audit needs
+  them. If command output matters, request bounded output.
+- If the target thread is longer than the first result, paginate older turns
+  until you have the original request, later scope changes, and the watched
+  agent's final or current state.
+- Only ask the user for a transcript path, link, or pasted content after host
+  thread tools are unavailable, deny access, or report that the id is not found.
+- When running from OpenCode or another agent that cannot access Codex Desktop
+  thread tools, explain that the session id is not enough in that host and ask
+  for a Codex thread link, transcript export, or pasted transcript.
+
 ## Reconstruct The Contract
 
 Before judging the work, write down the compact contract:

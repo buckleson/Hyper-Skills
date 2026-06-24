@@ -1,6 +1,6 @@
 {
   "name": "hyper-agent-skills",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "description": "Hyper Skills for cross-agent session watching, visual planning, codebase mapping, and token-saving replies.",
   "license": "MIT",
