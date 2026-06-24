@@ -1,28 +1,28 @@
 {
-  "name": "builder-skills",
+  "name": "hyper-skills",
   "version": "0.0.0",
-  "description": "Public Builder skills for docs-first discipline, autonomous execution, cross-agent review, efficient agent workflows, clear status recaps, and Agent-Native Plan modes.",
+  "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
   "author": {
-    "name": "Builder.io",
-    "url": "https://www.builder.io"
+    "name": "Hyper Skills",
+    "url": "https://github.com/buckleson/Hyper-Skills"
   },
-  "homepage": "https://github.com/BuilderIO/skills",
+  "homepage": "https://github.com/buckleson/Hyper-Skills",
   "license": "MIT",
-  "keywords": ["builder", "skills", "agent-workflows", "subagents"],
+  "keywords": ["hyper-skills", "agent-workflows", "subagents", "graphify"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Builder Skills",
-    "shortDescription": "Builder skills for efficient agent workflows.",
-    "longDescription": "A small public skill collection for docs-first discipline, autonomous execution, cross-agent watchdogging and plan arbitration, efficient frontier-model orchestration, clear status recaps, and Agent-Native Plan workflows with hosted, local-files, or self-hosted modes.",
-    "developerName": "Builder.io",
+    "displayName": "Hyper Skills",
+    "shortDescription": "Hyper Skills for coding-agent workflows.",
+    "longDescription": "A Hyper skill collection for cross-agent session watching, visual planning, and codebase knowledge mapping with hmap-out outputs.",
+    "developerName": "Hyper Skills",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://github.com/BuilderIO/skills",
+    "websiteURL": "https://github.com/buckleson/Hyper-Skills",
     "defaultPrompt": [
-      "Use Builder Skills when a matching skill applies",
-      "Web-search official docs before relying on memory for external APIs",
-      "Install the quick recap status convention",
-      "Use efficient Fable orchestration"
+      "Use Hyper Skills when a matching skill applies",
+      "Use /owl to watch and audit other agent sessions",
+      "Use /hvisualizerr for structured visual planning",
+      "Use /hyper-mapper for graph-backed codebase mapping"
     ]
   }
 }

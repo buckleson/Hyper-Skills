@@ -1,24 +1,24 @@
 {
-  "name": "builder-skills",
+  "name": "hyper-skills",
   "owner": {
-    "name": "Builder.io",
-    "url": "https://www.builder.io"
+    "name": "Hyper Skills",
+    "url": "https://github.com/buckleson/Hyper-Skills"
   },
-  "description": "Public Builder skills for docs-first discipline, autonomous execution, cross-agent review, efficient agent workflows, clear status recaps, and Agent-Native Plan modes.",
+  "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
   "plugins": [
     {
-      "name": "builder-skills",
+      "name": "hyper-skills",
       "source": "./",
-      "displayName": "Builder Skills",
-      "description": "Public Builder skills for docs-first discipline, autonomous execution, cross-agent review, efficient agent workflows, clear status recaps, and Agent-Native Plan modes.",
+      "displayName": "Hyper Skills",
+      "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
       "author": {
-        "name": "Builder.io",
-        "url": "https://www.builder.io"
+        "name": "Hyper Skills",
+        "url": "https://github.com/buckleson/Hyper-Skills"
       },
-      "homepage": "https://github.com/BuilderIO/skills",
-      "repository": "https://github.com/BuilderIO/skills",
+      "homepage": "https://github.com/buckleson/Hyper-Skills",
+      "repository": "https://github.com/buckleson/Hyper-Skills",
       "license": "MIT",
-      "keywords": ["builder", "skills", "agent-workflows", "subagents"]
+      "keywords": ["hyper-skills", "agent-workflows", "subagents", "graphify"]
     }
   ]
 }

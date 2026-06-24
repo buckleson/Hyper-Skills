@@ -1,0 +1,296 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "hyper-skills.js",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bin_hyper_skills",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "hyper-skills.js"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_dirname",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "packageRoot",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_packageroot",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "packageroot"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_sourceroot",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "sourceroot"
+    },
+    {
+      "label": "skillNames",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_skillnames",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "skillnames"
+    },
+    {
+      "label": "copyDir()",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_copydir",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "copydir()"
+    },
+    {
+      "label": "install()",
+      "file_type": "code",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "bin_hyper_skills_install",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "install()"
+    },
+    {
+      "label": "postinstall.js",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bin_postinstall",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "postinstall.js"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "bin_postinstall_dirname",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "packageRoot",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "bin_postinstall_packageroot",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "packageroot"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "bin_postinstall_sourceroot",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "sourceroot"
+    },
+    {
+      "label": "targetRoot",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "bin_postinstall_targetroot",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "targetroot"
+    },
+    {
+      "label": "skillNames",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "bin_postinstall_skillnames",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "skillnames"
+    },
+    {
+      "label": "copyDir()",
+      "file_type": "code",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "bin_postinstall_copydir",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "copydir()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_copydir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_install",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_packageroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_skillnames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "bin_hyper_skills",
+      "target": "bin_hyper_skills_sourceroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/hyper-skills.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "bin_hyper_skills_install",
+      "target": "bin_hyper_skills_copydir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_copydir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_packageroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_skillnames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_sourceroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/postinstall.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "bin_postinstall",
+      "target": "bin_postinstall_targetroot",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "988f39d318b74ac2e4222c916dd347e7655f9c56"
+}

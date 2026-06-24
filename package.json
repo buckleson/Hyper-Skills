@@ -1,12 +1,39 @@
 {
-  "name": "@builder.io/skills",
-  "version": "0.0.0",
-  "private": true,
+  "name": "hyper-skills",
+  "version": "0.1.0",
   "type": "module",
-  "description": "Public Builder skills for docs-first discipline, autonomous execution, cross-agent review, efficient frontier-model orchestration, clear status recaps, and Agent Native Plan workflows.",
+  "description": "Hyper Skills for cross-agent session watching, visual planning, and codebase knowledge mapping.",
   "license": "MIT",
+  "homepage": "https://github.com/buckleson/Hyper-Skills",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckleson/Hyper-Skills.git"
+  },
+  "keywords": [
+    "hyper-skills",
+    "agent-skills",
+    "codex",
+    "claude-code",
+    "opencode",
+    "kilo-code",
+    "graphify"
+  ],
+  "files": [
+    "skills/owl/",
+    "skills/hvisualizerr/",
+    "skills/hyper-map/",
+    "bin/",
+    "README.md",
+    "LICENSE",
+    ".codex-plugin/",
+    ".claude-plugin/"
+  ],
+  "bin": {
+    "hyper-skills": "./bin/hyper-skills.js"
+  },
   "scripts": {
+    "postinstall": "node bin/postinstall.js",
     "sync:agent-native-plan-skills": "node scripts/sync-agent-native-plan-skills.mjs",
-    "check": "node scripts/sync-agent-native-plan-skills.mjs --check"
+    "check": "node scripts/check-hyper-skills.mjs"
   }
 }
